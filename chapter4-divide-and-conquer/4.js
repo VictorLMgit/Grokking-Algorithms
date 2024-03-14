@@ -5,6 +5,5 @@ function recursiveBinarySearch(arr,target, left,right)
     if (arr[mid] == target) return mid;
     if (arr[mid] > target) return recursiveBinarySearch(arr, target, left, mid - 1);  
     return recursiveBinarySearch(arr, target, mid+1, right);
-
 }
 
